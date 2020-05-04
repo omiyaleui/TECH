@@ -1,0 +1,18 @@
+.background{
+    padding: 1.5em;
+    border: red; width: 5em;
+    background-color: sandybrown;
+
+}
+
+
+#logo{
+    image-resolution: 2em ;
+}
+
+.align-right{
+    float: right;
+}
+
+.align-left{float: left;
+}
