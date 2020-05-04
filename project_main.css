@@ -1,18 +1,32 @@
 .background{
     padding: 1.5em;
-    border: red; width: 5em;
-    background-color: sandybrown;
+    border: red;
+    background-color: ghostwhite;
 
 }
 
 
 #logo{
     image-resolution: 2em ;
+    border-image-outset: 5em;
 }
 
 .align-right{
     float: right;
 }
 
-.align-left{float: left;
+.align-left{
+    float: left;
+}
+
+.align-entry{
+    float: left;
+    padding-left: 10em;    
+}
+
+.align-exit{
+    float: right;
+    padding-right: 10em;
+    
+
 }
