@@ -75,8 +75,16 @@
                 
             <h2><ul><label>Phone Number: <input type="text" maxlength="11"> </label></ul></h2>
             <h2><ul><label>Time In: <input type="time" width="50" height="50"></label></ul></h2>
-            <h2><ul>Geo Tag:</ul></h2>
-            <button onclick="getLocation()">Click Here to Get Location</button> 
+            <h2><ul><label>Location: <input list="location"></label></ul></h2>
+                <span>
+                   <datalist id="location">
+                        <option value="HQ Marina">
+                        <option value="HQ Ilupeju Annex">
+                        <option value="HQ Campos Annex">
+                        <option value="Force Road Annex">                                                
+                    </datalist>
+                </span>
+            <button onclick="getLocation()">Click Here to Get Your Current Location</button> 
     
             <p id="demo"></p>
             
