@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="staff.css">
+</head>
+<body class="background">
+
+    <div>
+        <span> <img class="align-left" src="../images/sterling-logo.jpg" alt="Imagehere"></span>
+        
+    </div>
+
+    <div class="align-right">
+        <spa><a href="../index.html">Home</a></spa>
+        <spa><a href="">Admin</a></spa>      
+    </div>
+    <br><br><br><br><br><br><br><br>
+
+    <div>
+        <div class="align-menu">
+            <h2><ul><label>Full name: <span> <input type="text"</span> </label></ul></h2>
+            <h2><ul><label>Staff ID: <input type="text" maxlength="6"></label></ul></h2>
+            <h2><ul><label>Department: <input list="department"></label></ul></h2>
+                <span>
+                   <datalist id="department">
+                        <option value="Office of the CEO">
+                        <option value="Enterprise Risk Management">
+                        <option value="Finance Operation Group">
+                        <option value="GIS Group">
+                        <option value="Technology Group">
+                        <option value="Human Capital"> 
+                        <option value="Treasury Group">
+                        <option value="E-banking">
+                        <option value="NIB">
+                        <option value="Strategy and Innovations">
+                        <option value="Retail and Consumer Banking">
+                        <option value="Corporate and Investment Banking">                                                                         
+                    </datalist>
+                </span>
+            
+            <h2><ul><label>Floor: <input list="floors"></label></ul></h2>
+                <span>
+                    <datalist id="floors">
+                        <option value="17th Floor Long-wing">
+                        <option value="17th Floor Short-wing">
+                        <option value="16th Floor Long-wing">
+                        <option value="16th Floor Short-wing">
+                        <option value="15th Floor Long-wing">
+                        <option value="15th Floor Short-wing">
+                        <option value="14th Floor Long-wing">
+                        <option value="14th Floor Short-wing">
+                        <option value="13th Floor Long-wing">
+                        <option value="13th Floor Short-wing">
+                        <option value="12th Floor Long-wing">
+                        <option value="12th Floor Short-wing">
+                        <option value="11th Floor Long-wing">
+                        <option value="11th Floor Short-wing">
+                        <option value="10th Floor Long-wing">
+                        <option value="10th Floor Short-wing">
+                        <option value="9th Floor Long-wing">
+                        <option value="9th Floor Short-wing">
+                        <option value="8th Floor Long-wing">
+                        <option value="8th Floor Short-wing">
+                        <option value="7th Floor Long-wing">
+                        <option value="7th Floor Short-wing">
+                        <option value="6th Floor Long-wing">
+                        <option value="6th Floor Short-wing">
+                        <option value="5th Floor Long-wing">
+                        <option value="5th Floor Short-wing">                    
+                    </datalist>
+                </span>
+                
+            <h2><ul><label>Phone Number: <input type="text" maxlength="11"> </label></ul></h2>
+            <h2><ul><label>Time In: <input type="time" width="50" height="50"></label></ul></h2>
+            <h2><ul>Geo Tag:</ul></h2>
+            <button onclick="getLocation()">Click Here to Get Location</button> 
+    
+            <p id="demo"></p>
+            
+            <script>
+            var x = document.getElementById("demo");
+            
+            function getLocation() {
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } else { 
+                x.innerHTML = "Geolocation is not supported by this browser.";
+              }
+            }
+            
+            function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+            }
+            </script>
+        </div>
+    
+        <div class="align-right-detail">
+            <h2><ul>Capture Image:</ul></h2> <br><br><br><br><br>
+            <h2><ul><label>Date: <input type="date"></label></ul></h2>
+            <h2><ul><label>Purpose of Visit: <input list="purpose"></label></ul></h2>
+            <span>
+                <datalist id="purpose">
+                    <option value="Meeting">
+                    <option value="Delivery">
+                    <option value="Consultation">
+                    <option value="Others">
+                </datalist>
+            </span>   
+        </div>
+
+
+    </div>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <button><a class="base-end" href="">REQUEST ACCESS APPROVAL</a></button>
+    </div>
+<br><br><br>
+    <div>
+        <button> <a id="text-red" href="../entry_page/entry_page.html">Back</a> </button>
+    </div>
+
+
+
+</body>
+</html>

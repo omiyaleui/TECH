@@ -1,0 +1,55 @@
+.background{
+    padding: 1.0em;
+    border: red;
+    background-color: ghostwhite;
+    background-image: url(../images/vendor-image.jpg);
+    background-size: 85em 45em;
+
+
+}
+
+
+
+
+.align-right{
+    float: right;
+    color: red;
+    
+}
+
+.align-right spa{
+    color: red;
+    padding-right: 2em;
+}
+
+.align-right-detail{
+    float: right;
+    color: red;
+    width: 50%;
+}
+
+.align-left{
+    float: left;
+    color: red;
+    
+}
+
+.align-menu{
+    float: left;
+    color: red;
+    width: 40%;
+    padding-left: 2.5em;
+}
+
+.align-menu span{
+    box-sizing: 2em;
+}
+.base-end{
+    color: red;
+    border: royalblue;
+}
+
+#text-red{
+    color: red;
+    
+}

@@ -1,0 +1,60 @@
+.background{
+    padding: 1.5em;
+    border: red;
+    background-color: ghostwhite;
+    background-image: url(../images/exit-page.jpg);
+    background-size: 85em 43em;
+
+
+}
+
+.align-right{
+    float: right;
+    color: red;
+    
+}
+.align-left{
+    float: left;
+    color: red;
+    
+}
+.align-right spa{
+    color: red;
+    padding-right: 2em;
+}
+.align-menu{
+    float: left;
+    color: red;
+    padding-left: 7.5em;
+}
+#text-red{
+    color: red;
+    padding-left: 10em;
+}
+#submit{
+    color: red;
+}
+
+
+#test{
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
