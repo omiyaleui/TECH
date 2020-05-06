@@ -7,6 +7,10 @@
 
 
 }
+#div-pad{
+    padding-left: 35em;
+}
+
 
 .align-right{
     float: right;
@@ -29,10 +33,19 @@
 }
 #text-red{
     color: red;
+}
+#time-out{
     padding-left: 10em;
+    color: red;
 }
 #submit{
     color: red;
+    font-size: 125%;
+    border-radius: 1em;
+}
+
+#font{
+    font-size: 30px;
 }
 
 

@@ -27,12 +27,21 @@
     color: red;
     padding-left: 7.5em;
 }
+
 #text-red{
     color: red;
-    padding-left: 10em;
 }
+
 #submit{
     color: red;
+    font-size: 125%;
+    border-radius: 1em;
+}
+#div-pad{
+    padding-left: 35em;
+}
+#font{
+    font-size: 30px;
 }
 
 
