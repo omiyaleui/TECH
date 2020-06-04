@@ -3,7 +3,7 @@
     border: red;
     background-color: ghostwhite;
     background-image: url(../images/staff-page-background.jpg);
-    background-size: 85em 42em;
+    background-size: 86em 42em;
 
 
 }
@@ -45,10 +45,33 @@
 }
 .base-end{
     color: red;
+    font-size: 114%;
     border: royalblue;
 }
 
 #text-red{
     color: red;
     
+}
+
+#test1{
+    padding-left: 1.7em;
+}
+#test2{
+    padding-left: 0.76em;
+}
+#test3{
+    padding-left: 2.83em;
+}
+#test4{
+    padding-left: 1.06em;
+}
+#test5{
+    padding-left: 3.05em;
+}
+#test6{
+    padding-left: 1.47em;
+}
+#test7{
+    padding-left: 4.7em;
 }

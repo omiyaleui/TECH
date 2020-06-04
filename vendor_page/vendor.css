@@ -46,10 +46,30 @@
 }
 .base-end{
     color: red;
+    font-size: 114%;
     border: royalblue;
 }
 
 #text-red{
     color: red;
     
+}
+
+#test1{
+    padding-left: 1.1em;
+}
+#test2{
+    padding-left: 1.56em;
+}
+#test3{
+    padding-left: 1.9em;
+}
+#test4{
+    padding-left: 4.7em;
+}
+#test5{
+    padding-left: 2.05em;
+}
+#test6{
+    padding-left: 0.5em;
 }
